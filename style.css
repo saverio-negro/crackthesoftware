@@ -265,13 +265,8 @@ ul {
  
   .mr-3 {
     margin: 4px;
-    float: left;
     border-radius: 2%;
-    width: 180px;
+    width: 150px;
   }
 
-  .introduction-2 {
-      margin: 3px;
-      display: flex;
-      flex-direction: row-reverse;
-  }
+ 
