@@ -1,0 +1,44 @@
+CSS Cheat Sheet
+
+Reference:
+https://www.w3schools.com/cssref/css_selectors.asp
+https://css-tricks.com/almanac/
+
+Cascading Style Sheet at the most basic level it
+indicates that the order of CSS rules matter.
+
+.class
+#id
+*
+element
+element, element
+element element
+element > element
+element + element
+:hover
+:last-child
+:last-of-type
+:first-child
+:first-of-type
+!important (not recommended)
+
+
+What selectors win out in the cascade depends on:
+-Specificity
+-Importance
+-Source Order
+
+/////////////////////////////////////////
+IMPORTANT:
+
+The order property is designed to lay the items out in ordinal groups. What this means is that items are assigned an
+integer that represents their group. The items are then placed in the visual order according to that integer, lowest values first.
+If more than one item has the same integer value, then within that group the items are laid out as per source order.
+
+As an example, I have 5 flex items, and assign order values as follows:
+
+Source item 1: order: 2       Output : Source item 3
+Source item 2: order: 3                Source item 5
+Source item 3: order: 1                Source item 1
+Source item 4: order: 3                Source item 2
+Source item 5: order: 1                Source item 4
