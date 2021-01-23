@@ -177,7 +177,7 @@ height: 20vh;
 .img-box > img {
 
 
-    width: 90%;
+    width: 100%;
     border-radius: 50%;
 }
 
@@ -210,9 +210,31 @@ height: 20vh;
 
     
     padding: 0px;
+    
+
+}
+
+.presentation-grid-wrapper {
+
+
+    grid-template-columns: 25% 75%;
 
 
 }
+
+
+}
+
+@media only screen and (max-width: 600px){
+
+    .presentation-grid-wrapper {
+
+
+        grid-template-columns: 35% 65%;
+    
+    
+    }
+
 
 
 }
