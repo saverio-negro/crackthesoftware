@@ -265,7 +265,7 @@ height: 25vh;
    border: solid 1px black;
    padding: 80px;
    background-color: #444;
-   transition: all 1s;
+   transition: all 0.5s;
 }
 
 .project-box:hover {
