@@ -155,7 +155,7 @@ height: 50vh;
 
     display: grid;
     gap: 10px;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 30% 70%;
 
 
 }
@@ -171,7 +171,7 @@ height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px;
+    padding: 40px 20px;
 
 
 }
@@ -179,7 +179,7 @@ height: 50vh;
 .img-box > img {
 
 
-    width: 100%;
+    width: 60%;
     border-radius: 50%;
 }
 
@@ -187,8 +187,8 @@ height: 50vh;
 .text-box {
 
 
-    padding: 50px;
-    padding-left: 10px;
+    padding: 30px 40px 30px 5px;
+    
 
 }
 
@@ -199,11 +199,19 @@ height: 50vh;
 
 }
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 700px){
+
+
+.text-box {
+
+    padding: 0px 20px;
+    
+}
+
 
 
 .text-box > p {
-
+    text-align: center;
     font-size: 1em;
 
 }
@@ -216,27 +224,18 @@ height: 50vh;
 
 }
 
+.img-box > img {
+
+    width: 35%;
+}
+
 .presentation-grid-wrapper {
 
 
-    grid-template-columns: 25% 75%;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
 
 
 }
-
-
-}
-
-@media only screen and (max-width: 600px){
-
-    .presentation-grid-wrapper {
-
-
-        grid-template-columns: 35% 65%;
-    
-    
-    }
-
 
 
 }
