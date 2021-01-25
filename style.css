@@ -1,7 +1,9 @@
 body {
     
-    background-color: lightblue;
+    background-color: lightcyan;
     margin: 0px;
+    color: darkblue;
+    font-family: sans-serif;
 
 }
 
@@ -12,7 +14,7 @@ body {
 
 nav {
 
-    background-color: skyblue;
+    background-color: lightblue;
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -42,7 +44,7 @@ nav {
 li {
 
     margin: 0px 0px;
-    padding: 15px;
+    padding: 18px;
 }
 
 a {
@@ -87,13 +89,13 @@ a:active {
 display: flex;
 justify-content: center;
 align-items: center;
-height: 20vh;
+height: 50vh;
 
 }
 
 .img-cover {
 
-   width: 40rem;
+   width: 20rem;
    
    
 
@@ -125,7 +127,7 @@ height: 20vh;
 .main-box {
 
 
-    background-color:deepskyblue;
+    background-color:lightblue;
     border-radius: 5px;
     box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.2);
 
@@ -169,7 +171,7 @@ height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 40px;
 
 
 }
@@ -192,7 +194,7 @@ height: 20vh;
 
 .text-box > p {
 
-    font-size: 1em;
+    font-size: 1.1em;
     font-family: sans-serif;
 
 }
