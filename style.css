@@ -89,7 +89,7 @@ a:active {
 display: flex;
 justify-content: center;
 align-items: center;
-height: 40vh;
+height: 50vh;
 
 }
 
@@ -120,7 +120,7 @@ height: 40vh;
     
     
     width: 90%;
-    margin-top: 0px;
+    margin-top: -40px;
 }
 
 
