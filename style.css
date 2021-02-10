@@ -39,6 +39,12 @@ nav {
 .pushed-right {
 
     margin-left: auto;
+    padding-right: 30px;
+}
+
+.pushed-right:hover {
+
+    border-bottom: 2px solid darkblue;
 }
 
 li {
@@ -60,10 +66,16 @@ a:active {
 
 }
 
+a:hover {
+
+    color: darkblue;
+
+}
+
 .nav-link:hover {
 
     background-color: lightblue;
-
+    border-bottom: 2px solid darkblue;
 }
 
 @media only screen and (max-width: 600px){
