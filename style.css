@@ -42,6 +42,14 @@ nav {
     padding-right: 20px;
 }
 
+.pushed-right > a:hover {
+
+    border-bottom: 3px solid darkblue;
+
+}
+
+
+
 li {
 
     margin: 0px 0px;
@@ -58,6 +66,7 @@ a {
 a:active {
 
     color: white;
+    
 
 }
 
@@ -71,6 +80,7 @@ a:active {
 .nav-link:hover {
 
     background-color: lightblue;
+    
 }
 
 @media only screen and (max-width: 600px){
@@ -413,8 +423,8 @@ height: 50vh;
 
   .black-lives-matter-button {
 
-    border-radius: 5%;
-    height: 60px;
+    border-radius: 0%;
+    height: 55px;
     margin: 20px 0px;
     background-color: #444;
     font-size: 1.2em;
@@ -602,6 +612,12 @@ height: 50vh;
 a {
 
     font-family: 'Open Sans';
+}
+
+.footer-list > a:hover {
+
+    color: lightblue;
+
 }
 
 .copyright {
