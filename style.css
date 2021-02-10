@@ -61,7 +61,7 @@ a:active {
 
 }
 
-a:hover {
+.nav-link > a:hover {
 
     color: darkblue;
     border-bottom: 3px solid darkblue;
