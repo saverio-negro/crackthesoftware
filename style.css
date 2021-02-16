@@ -187,6 +187,7 @@ height: 50vh;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
+    color: darkblue;
   }
   
   .cover-social > .fa:hover {
