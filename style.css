@@ -325,7 +325,7 @@ height: 50vh;
 .container {
     
     
-    width: 97%;
+    width: 98%;
     margin-top: 6px;
 }
 
@@ -344,7 +344,7 @@ height: 50vh;
 .box {
 
     display: flex;
-    margin: 15px 15px;
+    margin: 18px 18px;
     background-color: skyblue;
     padding: 15px;
     border-radius: 3px;
